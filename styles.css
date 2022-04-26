@@ -1,0 +1,60 @@
+body{
+    font-family: "Source Sans Pro";
+}
+.container {
+    border: solid grey 1px;
+    width: 600px;
+    margin: 0 auto;
+
+    resize: both;
+    overflow: auto;
+    border-radius: 10px;
+}
+.title{
+    border-bottom: solid grey 1px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.punto {
+    color: black !important;
+}
+
+.margen {
+    margin: 10px;
+}
+.title h2{
+  font-size: 1.1rem;
+  font-weight: semibold (600);
+}
+.title p{
+   color: #033d99;
+   font-weight: semibold (600);
+}
+.title span{
+    color: #666;
+}
+
+.text{
+  margin-top: 10px;
+  border-bottom: solid grey 1px;
+}
+.text h2{
+ font-size: 1.3rem;
+ font-weight: semibold (600);
+}
+
+.text p{
+    color: #666;
+}
+
+.footer {
+    position: relative;
+    margin-top: 10px;
+    color: #666;
+}
+.footer span{
+    position: absolute;
+    top: 7px;
+    margin-left: 10px;
+}
